@@ -19,10 +19,10 @@ public class Printf {
 //        System.out.printf("%s is %d years old", name, age);
 
 
-        double num1 = 9897687545.99;
-        double num2 = 19.99;
-        double num3 = -59.99;
-        double num4 = 623759.99;
+//        double num1 = 9897687545.99;
+//        double num2 = 19.99;
+//        double num3 = -59.99;
+//        double num4 = 623759.99;
 //
 //        System.out.printf("Num1: %.1f\n", num1);
 //        System.out.printf("Num2: %.2f\n", num2);
@@ -33,9 +33,25 @@ public class Printf {
 //        System.out.printf("Num3: %(f\n", num3);
 //        System.out.printf("Num4: %,f\n", num4);
 
-        System.out.printf("Num1: %04f\n", num1);
-        System.out.printf("Num2: %4f\n", num2);
-        System.out.printf("Num3: %-4f\n", num3);
+        int id1 = 1;
+        int id2 = 23;
+        int id3 = 456;
+        int id4 = 7890;
+
+        System.out.printf("%04d\n", id1);
+        System.out.printf("%04d\n", id2);
+        System.out.printf("%04d\n", id3);
+        System.out.printf("%04d\n\n", id4);
+
+        System.out.printf("%4d\n", id1);
+        System.out.printf("%4d\n", id2);
+        System.out.printf("%4d\n", id3);
+        System.out.printf("%4d\n\n", id4);
+
+        System.out.printf("%-4d\n", id1);
+        System.out.printf("%-4d\n", id2);
+        System.out.printf("%-4d\n", id3);
+        System.out.printf("%-4d\n\n", id4);
 
     }
 }
