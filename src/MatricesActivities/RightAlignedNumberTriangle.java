@@ -6,10 +6,10 @@ public class RightAlignedNumberTriangle {
         /*
 
             1
-           22
-          333
-         4444
-        55555
+           12
+          123
+         1234
+        12345
 
         * */
 
@@ -18,7 +18,7 @@ public class RightAlignedNumberTriangle {
                 System.out.print(" ");
             }
             for(int k = 1; k < i + 1; k++){
-                System.out.print(i);
+                System.out.print(k);
             }
             System.out.println();
         }

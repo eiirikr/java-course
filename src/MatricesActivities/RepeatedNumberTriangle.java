@@ -1,6 +1,6 @@
 package MatricesActivities;
 
-public class RepeatedNumberPattern {
+public class RepeatedNumberTriangle {
     public static void main(String[] args) {
 
         /*
